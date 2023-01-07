@@ -36,7 +36,7 @@
 
 
 
-.btn-primary {
+.btn-primary-1 {
     color: #005FAC;
     background: #FFFFFF;
     border-radius: 5px;
@@ -79,9 +79,8 @@
 
 /* my plan style */
 .my-plans {
-    margin-top: 130px;
-    text-align: center;
-    justify-content: space-between;
+    margin: 20px 250px;
+    align-items: center;
 }
 
 .my-plans-title {
@@ -89,17 +88,78 @@
     color: #151414;
     font-weight: 700;
     font-size: 40px;
-    margin: 150px 150px 150px 150px;
-    width: 179px;
-    height: 47px;
+    margin: 150px 150px 50px 150px;
+
+}
+
+.skill {
+    text-align: center;
 }
 
 .skills-container {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .skill-title {
     font-weight: 700;
     font-size: 30px;
+}
+
+/* gradiant style */
+.gradiant {
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+    margin: 50px 120px 5px 120px;
+    padding: 20px 30px 10px 50px;
+    
+}
+
+
+.gradiant-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    margin: 50px 150px 5px 15px ;
+    padding: 20px 550px 2px 55px;
+}
+ .btn-primary-2{
+     text-align: left;
+     color: #005FAC;
+     background: #FFFFFF;
+     border-radius: 5px;
+     border: 0;
+     width: 150px;
+     height: 60px;
+     font-weight: 600;
+     font-size: 20px;
+     margin: 2px 550px 0px 65px;
+     padding: 20px;
+}
+
+/* contact style */
+.contact{
+    display: flex;
+    gap: 20px;
+    background: #151414;
+}
+
+
+.btn-primary-3{
+     
+    color:#FFFFFF;
+    background: #005FAC;
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 10px;
+    margin: 2px 550px 0px 65px;
+    padding: 20px;
 }
